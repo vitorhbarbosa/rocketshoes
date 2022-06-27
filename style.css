@@ -14,12 +14,36 @@
     
     width: 100vw;
     height: 100vh;
-    background-color: #E5E5E5;
+    
     
     
 }
 
-.container
+.background-container {
+
+    display: flex;
+}
+
+
+
+.background-main {
+
+        width: 35%;
+        height: 1000px;
+        margin: 0;
+        padding: 0;
+        background-color: #E5E5E5;
+
+}
+
+.background-aside {
+
+    width: 65%;
+    height: 1000px;
+    margin: 0;
+    padding: 0;
+    background-color: #C4C4C4;
+}
 
 .navbar {
 
@@ -89,17 +113,18 @@
 
 }
 
-main {
+main > section{
 
     position: absolute;
     width: 357px;
     height: 533px;
     left: 111px;
     top: 190px;
+    
 
 }
 
-main > h1 {
+main > section > h1 {
 
     width: 357px;
     height: 272px;
@@ -161,6 +186,8 @@ button {
 
     background: #FF0000;
 
+    border: none;
+
 }
 
 button > p {
@@ -174,6 +201,12 @@ button > p {
     color: #FFFFFF;
 }
 
+aside {
+
+    width: 700px;
+    background-color: #C4C4C4;
+    ;
+}
 
 aside > img {
 
@@ -205,6 +238,12 @@ aside > img {
     left: 865px;
     top: 685.5px;
 
+   
+}
+
+.tenis1:hover {
+
+    border-bottom: 4px solid red;
 }
 
 .tenis3 {
